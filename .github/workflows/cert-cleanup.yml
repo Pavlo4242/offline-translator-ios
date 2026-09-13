@@ -4,7 +4,7 @@ name: Apple Cert Cleanup
 # 也可手動觸發（Actions 頁 → Run workflow）。
 on:
   schedule:
-    - cron: '0 0 * * 0'
+   # - cron: '0 0 * * 0'
   workflow_dispatch:
 
 jobs:
